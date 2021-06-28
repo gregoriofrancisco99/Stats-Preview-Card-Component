@@ -1,0 +1,107 @@
+@media (max-width: 720px) {
+    body{
+        height: auto;
+    }
+    
+    main {
+        width: 95%;
+        height: 100%;
+    
+        background: url(./../images/image-header-mobile.jpg) no-repeat hsl(244, 38%, 16%);
+        background-position: 50% 0%;
+        background-size: 100%;
+    }
+    
+    main section {
+        width: 100%;
+        justify-content: center;
+
+        margin: 35em 0 0 0;
+
+        text-align: center;
+    }
+    
+    main section article {
+        width: 95%;
+        margin-bottom: 3em;
+    }
+ 
+    
+    main section #intro {
+        height: auto;
+        justify-content: center;
+    }
+
+    main section #intro h1{
+        margin-bottom: 1em;
+    }
+
+    main section #chart #chartWrapper{
+        flex-direction: column;
+    }
+
+    main section #chart #chartWrapper div{
+        margin-top: 1.5em;
+    }
+
+    main section #chart #chartWrapper .charts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 375px) {
+    body{
+        height: auto;
+    }
+    
+    main {
+        width: 95%;
+        height: 100%;
+    
+        background: url(./../images/image-header-mobile.jpg) no-repeat hsl(244, 38%, 16%);
+        background-position: 50% 0%;
+        background-size: 100%;
+    }
+    
+    main section {
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+
+        margin: 20em 0 0 0;
+
+        text-align: center;
+    }
+    
+    main section article {
+        width: 80%;
+        margin-bottom: 3em;
+    }
+
+    main section #intro {
+        height: auto;
+        justify-content: center;
+    }
+
+    main section #intro h1{
+        margin-bottom: 1em;
+    }
+
+    main section #chart #chartWrapper{
+        flex-direction: column;
+    }
+
+    main section #chart #chartWrapper div{
+        margin-top: 1.5em;
+    }
+
+    main section #chart #chartWrapper .charts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+}

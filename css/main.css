@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main #wrapper {
+    
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background: url(./../images/image-header-desktop.jpg) no-repeat hsl(244, 38%, 16%);
+    background-position: 100% 100%;
+    background-size: contain;
+
+    border-radius: 0.35em;
+    color: #fff;
+}
+
+main section {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+main section article{
+    width: 80%;
+    font-family: 'Inter', sans-serif;
+}
+
+main section #intro {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+main section #intro h1{
+    font-size: 2em;
+    margin-bottom: 0.7em;
+    
+}
+
+main section #intro h1 em {
+    color: hsl(277, 64%, 61%);
+    font-style: normal;
+}
+
+main section #intro #text {
+    padding-right: 4em;
+}
+
+main section #intro p{
+    opacity: 0.7;
+    font-size: 0.8em;
+    line-height: 1.7em;
+}
+
+main section #chart #chartWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+main section #chart {
+    padding-right: 6em;
+}
+
+main section #chart #chartWrapper .charts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+
+    
+}
+
+main section #chart #chartWrapper .charts h2{
+    font-size: x-small;
+    text-transform: uppercase;
+    opacity: 0.7;
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+}
+main section #chart #chartWrapper .charts p {
+    font-size: x-large;
+    font-weight: 700;
+}
+
